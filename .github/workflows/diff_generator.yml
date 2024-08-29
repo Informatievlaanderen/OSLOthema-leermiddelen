@@ -1,0 +1,60 @@
+name: Check diff between template and current state
+on: [push]
+
+jobs:
+  generate-diff:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node-version:
+          - 20.x
+    steps:
+      - name: Checkout source branch
+        uses: actions/checkout@v4
+        with:
+          repository: Informatievlaanderen/OSLOthema-template
+          ref: standaardenregister
+          path: source
+
+      - name: Clone other repository
+        uses: actions/checkout@v4
+        with:
+          # Dynamic reference to the active repository so that it works immediately when creating a new thema repo
+          repository: ${{ github.repository }}
+          ref: standaardenregister
+          path:
+            target
+            # Extra step to debug the file structure
+      - name: List file structure of source dir
+        shell: bash
+        run: |
+          ls source
+      - name: List file structure of target dir
+        shell: bash
+        run: |
+          ls target
+      - name: See which files are unchanged between template and repository
+        id: generate-diff
+        shell: bash
+        # add a rule to ignore .git folder
+        run: |
+          identical_files=""
+          for file in $(find source -type f | grep -v ".git"); do
+            target_file=${file/source/target}
+            if [ -f "$target_file" ]; then
+              diff_output=$(diff -b "$file" "$target_file" | cat -t || true)
+              if ! [[ $diff_output == *"differ"* ]]; then
+                identical_files+="- ${file##*/}\n"
+              fi
+            fi
+          done
+          echo "Identical files:"
+          echo -e "$identical_files"
+          echo "# Summary" >> $GITHUB_STEP_SUMMARY
+          echo "## Identical files compared to the template" >> $GITHUB_STEP_SUMMARY
+          echo -e "$identical_files" >> $GITHUB_STEP_SUMMARY
+          if [ -n "$identical_files" ]; then
+            echo "Error: There are identical files between the template and the repository." >> $GITHUB_STEP_SUMMARY
+            exit 1
+          fi

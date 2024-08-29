@@ -1,0 +1,57 @@
+name: Validate JSONs
+
+on: [push]
+
+jobs:
+  copy-configuration-files:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        # Different Node versions possible. Each node version will trigger the action
+        node-version:
+          - 20.x
+    steps:
+      - name: Checkout source branch
+        uses: actions/checkout@v4
+        with:
+          # Hardcoded reference to the thema repo, since this repo contains the boilerplate for all repos
+          repository: Informatievlaanderen/OSLOthema-template
+          ref: config
+          # The source folder contains the configuration files, as defined in the thema-template-repository
+          path: source
+      - name: Checkout target branch
+        uses: actions/checkout@v4
+        with:
+          # Dynamic reference to the active repository so that it works immediately when creating a new thema repo
+          repository: ${{ github.repository }}
+          ref: standaardenregister
+          # Target is the folder containing the content of thema-repository
+          path: target
+      # Extra step to debug the file structure
+      - name: List file structure of source dir
+        shell: bash
+        run: |
+          ls source
+      - name: List file structure of target dir
+        shell: bash
+        run: |
+          ls target
+      - name: Validate JSON
+        id: validate
+        # https://github.com/marketplace/actions/json-yaml-validate
+        uses: GrantBirki/json-yaml-validate@v2.5.0
+        with:
+          json_schema: source/schemas/configuration.json
+          json_extension: json
+          base_dir: target
+          comment: true
+          use_gitignore: false
+      - name: Log validation result to summary
+        run: |
+          echo "# Summary" >> $GITHUB_STEP_SUMMARY
+          if [ ${{ steps.validate.outputs.success }} == "true" ]; then
+            echo "All configuration file(s) in the repository are valid!" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "There are some errors in the configuration file(s). Please check the logs to see which files" >> $GITHUB_STEP_SUMMARY
+          fi
