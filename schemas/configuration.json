@@ -1,0 +1,150 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/Configuration",
+  "definitions": {
+    "Configuration": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "usage": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "responsibleOrganisation": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "uri": {
+              "type": "string"
+            }
+          },
+          "required": ["name", "uri"],
+          "additionalProperties": false
+        },
+        "publicationDate": {
+          "type": "string"
+        },
+        "descriptionFileName": {
+          "type": "string"
+        },
+        "specificationDocuments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "resourceReference": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "documentation": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "resourceReference": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "charter": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "resourceReference": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        "reports": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "resourceReference": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "presentations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "resourceReference": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "dateOfRegistration": {
+          "type": "string"
+        },
+        "dateOfAcknowledgementByWorkingGroup": {
+          "type": "string"
+        },
+        "dateOfAcknowledgementBySteeringCommittee": {
+          "type": "string"
+        },
+        "datePublicReviewStart": {
+          "type": "string"
+        },
+        "datePublicReviewEnd": {
+          "type": "string"
+        },
+        "endOfPublicationDate": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "category",
+        "usage",
+        "status",
+        "responsibleOrganisation",
+        "publicationDate",
+        "descriptionFileName",
+        "specificationDocuments",
+        "documentation",
+        "charter",
+        "reports",
+        "presentations",
+        "dateOfRegistration",
+        "dateOfAcknowledgementByWorkingGroup",
+        "dateOfAcknowledgementBySteeringCommittee"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

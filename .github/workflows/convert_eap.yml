@@ -1,0 +1,58 @@
+name: Convert the EAP file to JSON-ld
+
+on:
+  workflow_call:
+    inputs:
+      config-file:
+        description: "Name of the config file. Example: mijn-applicatieprofiel-ap.json"
+        required: true
+        type: string
+
+jobs:
+  convert-eap:
+    # The type of runner that the job will run on
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        # Different Node versions. Each node version will trigger the action
+        node-version:
+          - 20.x
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt-get install jq
+
+      - name: Install ea-converter
+        run: npm install @oslo-flanders/ea-converter
+
+      # Fetch the required keys from the configuration file
+      - name: Read key from configuration file
+        id: read-config
+        run: |
+          diagram=$(jq -r '.[0].diagram' config/${{ github.event.inputs.config-file }})
+
+          uml=$(jq -r '.[0].eap' config/${{ github.event.inputs.config-file }})
+
+          type=$(jq -r '.[0].type' config/${{ github.event.inputs.config-file }})
+          if [ "$type" = "ap" ]; then
+          type="ApplicationProfile"
+          elif [ "$type" = "voc" ]; then
+          type="Vocabulary"
+          fi
+
+          echo "diagramName=$diagram" >> "$GITHUB_OUTPUT"
+          echo "umlFile=$uml" >> "$GITHUB_OUTPUT"
+          echo "specificationType=$type" >> "$GITHUB_OUTPUT"
+
+      # Run the converter
+      - name: Run oslo-converter-ea
+        run: npx oslo-converter-ea --umlFile ${{ steps.read-config.outputs.umlFile }} --diagramName ${{ steps.read-config.outputs.diagramName }} --specificationType ${{ steps.read-config.outputs.specificationType }} --versionId test/1 --publicationEnvironment https://data.vlaanderen.be
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: report.jsonld
+          path: ./report.jsonld
