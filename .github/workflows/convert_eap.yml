@@ -1,0 +1,14 @@
+name: Convert the EAP file to JSON-ld
+
+on:
+  workflow_dispatch:
+    inputs:
+      config-file:
+        description: "Name of the config file. Example: mijn-applicatieprofiel-ap.json"
+        required: true
+
+jobs:
+  call-workflow:
+    uses: Informatievlaanderen/OSLOthema-template/.github/workflows/convert_eap.yml@config
+    with:
+      config-file: ${{ github.event.inputs.config-file }}
