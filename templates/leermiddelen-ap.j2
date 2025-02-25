@@ -3,6 +3,16 @@
 {% block summary %}
 <p>Het applicatieprofiel rond Leermiddelen richt zich op de internationale uitwisseling van leermiddelen in het breed onderwijsveld, gaande van het klassiek onderwijs tot levenslang leren.
 Leermiddelen kunnen dankzij deze standaard eenvoudig worden uitgewisseld op verschillende niveaus. Het leermiddel kan gelinkt worden aan de leeractiviteit en leeractiviteitspecificatie, alsook aan het doel.
-Daarnaast is er ook een mogelijkheid om de auteursrechten neer te schrijven aan de hand. </p>
+Daarnaast is er ook een mogelijkheid om de auteursrechten i.v.m. het Leermiddel neer te schrijven aan de hand van dit model.</p>
+<p>De centrale focus van dit model ligt natuurlijk op de klasse 'Leermiddel'. Deze klasse bevat allerlei attributen met betrekking tot de ontwikkeling, publicatie, verdeling, gebruik, ... van een Leermiddel.
+Dankzij deze attributen kan alle relevante informatie omtrent een Leermiddel opgeslagen worden. Bovendien kunnen Leermiddelen met (gedeeltelijk) dezelfde kenmerken samen worden gebracht in een 'Leermiddelenverzameling'. Het Leermiddel zelf is een subklasse van de klasse 'CreatiefWerk', dewelke informatie bevat omtrent de auteur en bijhorende auteursrechten van eender welke vorm van CreatiefWerk. 
+Een CreatiefWerk kan tevens een 'Licentie' hebben, die de informatie omtrent correct hergebruik omvat. Zoals het applicatieprofiel aangeeft, is dit ook van toepassing voor een Leermiddel.
+Verder kan er ook een link worden gelegd met de 'Agent', die in dit model de uitgeverij weergeeft die een CreatiefWerk produceert of deelt.</p>
+<p>Verder is in dit model ook de link gelegd met de klasse 'Leeractiviteit', uit <a href="https://data.vlaanderen.be/ns/leercredential/">OSLO-Leercredential<a/>, aangezien een Leeractiviteit potentieel gebruik kan maken van een of meerdere Leermiddelen.
+Ook de link met de klasse 'Leeractiviteitspecificatie', uit <a href="https://data.vlaanderen.be/ns/leercredential/">OSLO-Leercredential<a/>  is in dit model gemaakt, aangezien deze potentieel het gebruik van bepaalde Leermiddelen voorschrijft.</p>
+<p>Tot slot speelt ook de klasse 'Doel' een belangrijke rol in dit model. Een Leermiddel dient namelijk potentieel een bepaald Doel. Daarnaast dragen ook de Leeractiviteit en Leeractiviteitspecificatie bij aan het behalen van een Doel. 
+Belangrijk is dat het Doel op zich ingevuld kan worden afhankelijk van het type doel, binnen het onderwijsveld of binnen de professionele omgeving, zoals de gebruiker wenst.
+Het Doel is echter steeds gerelateerd aan een ander Doel, bestaat potentieel ook uit een of meerdere andere Doelen, is bovendien een specialisatie van een of meerdere Doelen en kan ook breder zijn dan bepaalde andere Doelen.
+</p>
 {% endblock %}
 
