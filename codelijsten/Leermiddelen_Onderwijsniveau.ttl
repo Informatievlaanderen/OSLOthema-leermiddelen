@@ -1,0 +1,73 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_Onderwijsniveau>  a skos:ConceptScheme ;
+<https://www.w3.org/ns/adms#status> <https://data.vlaanderen.be/id/concept/Status/ingebruik> ;
+skos:prefLabel "Onderwijsniveau"@nl ;
+skos:definition """Codelijst van Onderwijsniveau"""@nl .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_Onderwijsniveau/basisonderwijs>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Basisonderwijs"""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_Onderwijsniveau> ;
+skos:notation "basisonderwijs" ;
+skos:prefLabel "Basisonderwijs"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_Onderwijsniveau> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_Onderwijsniveau/lager-onderwijs>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Lager onderwijs"""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_Onderwijsniveau> ;
+skos:notation "lager-onderwijs" ;
+skos:prefLabel "Lager onderwijs"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_Onderwijsniveau> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_Onderwijsniveau/lager-2e-graad>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Lager 2e graad"""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_Onderwijsniveau> ;
+skos:notation "lager-2e-graad" ;
+skos:prefLabel "Lager 2e graad"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_Onderwijsniveau> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_Onderwijsniveau/lager-3de-leerjaar>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Lager 3e leerjaar"""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_Onderwijsniveau> ;
+skos:notation "lager-3de-leerjaar" ;
+skos:prefLabel "Lager 3e leerjaar"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_Onderwijsniveau> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_Onderwijsniveau/secundair-onderwijs>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Secundair onderwijs"""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_Onderwijsniveau> ;
+skos:notation "secundair-onderwijs" ;
+skos:prefLabel "Secundair onderwijs"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_Onderwijsniveau> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_Onderwijsniveau/secundair-3e-graad>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Secundair 3e graad"""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_Onderwijsniveau> ;
+skos:notation "secundair-3e-graad" ;
+skos:prefLabel "Secundair 3e graad"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_Onderwijsniveau> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_Onderwijsniveau/secundair-3e-graad-doorstroom>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Secundair 3e graad finaliteit doorstroom"""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_Onderwijsniveau> ;
+skos:notation "secundair-3e-graad-doorstroom" ;
+skos:prefLabel "Secundair 3e graad finaliteit doorstroom"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_Onderwijsniveau> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_Onderwijsniveau/secundair-3e-graad-doorstroom-tso>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Secundair 3e graad finaliteit doorstroom tso"""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_Onderwijsniveau> ;
+skos:notation "secundair-3e-graad-doorstroom-tso" ;
+skos:prefLabel "Secundair 3e graad finaliteit doorstroom tso"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_Onderwijsniveau> .
+

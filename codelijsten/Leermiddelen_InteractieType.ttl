@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_InteractieType>  a skos:ConceptScheme ;
+<https://www.w3.org/ns/adms#status> <https://data.vlaanderen.be/id/concept/Status/ingebruik> ;
+skos:prefLabel "InteractieType"@nl ;
+skos:definition """Codelijst van InteractieType"""@nl .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_InteractieType/interactief>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Interactieve activiteit"""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_InteractieType> ;
+skos:notation "interactief" ;
+skos:prefLabel "Interactief"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_InteractieType> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_InteractieType/klasactiviteit>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Klasactiviteit (taak, oefening in de klas)"""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_InteractieType> ;
+skos:notation "klasactiviteit" ;
+skos:prefLabel "Klasactiviteit"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_InteractieType> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_InteractieType/veldactiviteit>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Veldactiviteit"""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_InteractieType> ;
+skos:notation "veldactiviteit" ;
+skos:prefLabel "Veldactiviteit"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_InteractieType> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_InteractieType/uitstap>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Studie- of schoolreis"""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_InteractieType> ;
+skos:notation "uitstap" ;
+skos:prefLabel "Uitstap"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_InteractieType> .
+

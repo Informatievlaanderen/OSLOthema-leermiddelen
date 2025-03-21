@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_OnderwerpType>  a skos:ConceptScheme ;
+<https://www.w3.org/ns/adms#status> <https://data.vlaanderen.be/id/concept/Status/ingebruik> ;
+skos:prefLabel "OnderwerpType"@nl ;
+skos:definition """Codelijst van OnderwerpType"""@nl .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_OnderwerpType/vak/biologie>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Het vak Biologie"""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_OnderwerpType> ;
+skos:notation "biologie" ;
+skos:prefLabel "Biologie"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_OnderwerpType> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_OnderwerpType/vak/aarderijkskunde>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Het vak Aarderijkskunde"""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_OnderwerpType> ;
+skos:notation "aarderijkskunde" ;
+skos:prefLabel "Aarderijkskunde"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_OnderwerpType> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_OnderwerpType/beroep/bakkerij>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Het onderwerp Bakkerij"""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_OnderwerpType> ;
+skos:notation "bakkerij" ;
+skos:prefLabel "Bakkerij"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_OnderwerpType> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_OnderwerpType/onderwerp/kantoorsoftware>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Het onderwerp Kantoorsoftware"""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_OnderwerpType> ;
+skos:notation "kantoorsoftware" ;
+skos:prefLabel "Kantoorsoftware"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_OnderwerpType> .
+

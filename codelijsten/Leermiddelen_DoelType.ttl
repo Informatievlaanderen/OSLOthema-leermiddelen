@@ -1,0 +1,77 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_DoelType>  a skos:ConceptScheme ;
+<https://www.w3.org/ns/adms#status> <https://data.vlaanderen.be/id/concept/Status/ingebruik> ;
+skos:prefLabel "Doeltype"@nl ;
+skos:definition """Codelijst van Doeltype"""@nl .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_DoelType/basiscompetentie>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Deze term wordt gebruikt in de eerste, tweede en derde graad van het deeltijds kunstonderwijs. Basiscompetenties geven aan welke kennis, vaardigheden en attitudes een leerling geïntegreerd moet inzetten voor maatschappelijke activiteiten. Basiscompetenties worden niet vastgelegd per vak, maar voor het geheel van een opleiding.
+
+Ook in het volwassenenonderwijs wordt de term gebruikt om te verwijzen naar de kennis, vaardigheden en attitudes waarover een cursist moet beschikken om zich persoonlijk te ontwikkelen, maatschappelijk te functioneren, vervolgonderwijs aan te vatten of om te kunnen beginnen als beroepsbeoefenaar."""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_DoelType> ;
+skos:notation "basiscompetentie" ;
+skos:prefLabel "Basiscompetentie"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_DoelType> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_DoelType/cesuurdoel>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Cesuurdoelen zijn minimumdoelen die gelden voor het specifieke gedeelte van de 2de graad secundair onderwijs. Ze worden ontwikkeld voor alle studierichtingen uit de doorstroomfinaliteit en de dubbele finaliteit en worden via een protocolakkoord tussen de overheid en de onderwijsverstrekkers vastgelegd."""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_DoelType> ;
+skos:notation "cesuurdoel" ;
+skos:prefLabel "Cesuurdoel"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_DoelType> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_DoelType/eindterm>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Deze term wordt gebruikt voor de onderwijsdoelen van het gewoon lager en secundair onderwijs en voor OV4 van het buitengewoon secundair onderwijs . Eindtermen zijn minimumdoelen die het Vlaams Parlement noodzakelijk en bereikbaar acht voor die leerlingenpopulatie. Met minimumdoelen wordt bedoeld: een minimum aan kennis, inzicht, vaardigheden en attitudes, bestemd voor die leerlingenpopulatie. Sommige eindtermen zijn attitudes. Die zijn enkel na te streven."""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_DoelType> ;
+skos:notation "eindterm" ;
+skos:prefLabel "Eindterm"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_DoelType> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_DoelType/eindterm-basisgeletterdheid>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """De eindtermen basisgeletterdheid moeten door elke individuele leerling worden bereikt op het einde van de eerste graad secundair onderwijs. De eindtermen basisgeletterdheid zijn die eindtermen die ertoe strekken te kunnen participeren in de maatschappij."""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_DoelType> ;
+skos:notation "eindterm-basisgeletterdheid" ;
+skos:prefLabel "Eindterm basisgeletterdheid"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_DoelType> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_DoelType/leerplandoel>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Een leerplandoel is een goedgekeurd doel opgesteld door een erkende Vlaamse onderwijsinstellingen en Nederlandstalige onderwijsinstellingen in Brussel. Hierin moeten de eindtermen en ontwikkelingsdoelen die de overheid vastlegt, op herkenbare wijze worden opgenomen; kan het schoolbestuur doelen die het uitdrukkelijk voor zijn leerlingen formuleert, toevoegen; en moet er voldoende ruimte zijn voor de inbreng van scholen, leraren(teams) en leerlingen."""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_DoelType> ;
+skos:notation "leerplandoel" ;
+skos:prefLabel "Leerplandoel"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_DoelType> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_DoelType/ontwikkelingsdoel>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Ontwikkelingsdoelen voor het gewoon kleuteronderwijs zijn minimumdoelen die het Vlaams Parlement wenselijk acht voor die leerlingenpopulatie. Met minimumdoelen wordt bedoeld: een minimum aan kennis, inzicht, vaardigheden en attitudes, bestemd voor die leerlingenpopulatie.
+
+Ontwikkelingsdoelen voor het buitengewoon basis- en secundair onderwijs zijn minimumdoelen op het vlak van kennis, inzicht, vaardigheden en attitudes die het Vlaams Parlement wenselijk acht voor zoveel mogelijk leerlingen van een bepaalde leerlingenpopulatie. Elke school heeft de maatschappelijke opdracht om de ontwikkelingsdoelen met betrekking tot kennis, inzicht, vaardigheden en attitudes bij de leerlingen na te streven indien opgenomen in het handelingsplan."""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_DoelType> ;
+skos:notation "ontwikkelingsdoel" ;
+skos:prefLabel "Ontwikkelingsdoel"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_DoelType> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_DoelType/specifieke_eindterm>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Specifieke eindtermen zijn minimumdoelen met betrekking tot de specifieke kennis, vaardigheden, inzichten en attitudes waarover een leerling van het voltijds secundair onderwijs beschikt om vervolgonderwijs aan te vatten. Ze worden vastgelegd voor alle studierichtingen uit de doorstroomfinaliteit en de dubbele finaliteit van de 3de graad van het secundair onderwijs"""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_DoelType> ;
+skos:notation "specifieke eindterm" ;
+skos:prefLabel "Specifieke eindterm"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_DoelType> .
+
+<https://data.vlaanderen.be/id/concept/Leermiddelen_DoelType/uitbreidingsdoel>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/DWMStatus/ingebruik> ;
+skos:definition """Uitbreidingsdoelen Nederlands zijn extra doelen bovenop de eindtermen met betrekking tot competenties in het Nederlands die door een bepaalde leerlingenpopulatie kunnen worden bereikt. Ze gelden enkel voor de 1ste graad van het secundair onderwijs."""@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_DoelType> ;
+skos:notation "uitbreidingsdoel" ;
+skos:prefLabel "Uitbreidingsdoel"@nl ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Leermiddelen_DoelType> .
+
