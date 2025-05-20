@@ -3,10 +3,12 @@
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "responsibleOrganisation": {
+  "responsibleOrganisation": [
+    {
     "name": "Departement Onderwijs en Vorming",
     "uri": "https://data.vlaanderen.be/id/organisatie/OVO000049"
-  },
+    }
+  ],
   "publicationDate": "2025-05-20",
   "descriptionFileName": "voc-leermiddelen-config.md",
   "specificationDocuments": [
