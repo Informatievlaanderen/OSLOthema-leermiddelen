@@ -1,15 +1,20 @@
 {
-  "title": "",
-  "category": "",
-  "usage": "",
-  "status": "",
+  "title": "Vocabularium Leermiddelen",
+  "category": "Vocabularium",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "responsibleOrganisation": {
-    "name": "Agentschap Digitaal Vlaanderen",
-    "uri": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    "name": "Departement Onderwijs en Vorming",
+    "uri": "https://data.vlaanderen.be/id/organisatie/OVO000049"
   },
-  "publicationDate": "",
-  "descriptionFileName": "",
-  "specificationDocuments": [],
+  "publicationDate": "2025-05-20",
+  "descriptionFileName": "voc-leermiddelen-config.md",
+  "specificationDocuments": [
+    {
+      "name": "Vocabularium Leermiddelen",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/leermiddelen"
+    }
+  ],
   "documentation": [],
   "charter": {},
   "reports": [],
