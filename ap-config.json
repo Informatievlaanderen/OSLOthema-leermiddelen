@@ -6,7 +6,7 @@
   "responsibleOrganisation": [
     {
     "name": "Departement Onderwijs en Vorming",
-    "uri": "https://data.vlaanderen.be/id/organisatie/OVO000049"
+    "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000049"
     }
   ],
   "publicationDate": "2025-05-20",
