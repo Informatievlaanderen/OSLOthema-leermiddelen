@@ -12,6 +12,6 @@
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Rol",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html"
+    "standaardregisterurl": "https://data.vlaanderen.be/ns/leermiddelen"
   }
 ]
