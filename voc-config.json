@@ -1,12 +1,12 @@
 {
   "title": "Vocabularium Leermiddelen",
   "category": "Vocabularium",
-  "usage": "Aanbevolen (vrijwillig)",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "responsibleOrganisation": [
     {
-    "name": "Departement Onderwijs en Vorming",
-    "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000049"
+      "name": "Departement Onderwijs en Vorming",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000049"
     }
   ],
   "publicationDate": "2025-05-20",
