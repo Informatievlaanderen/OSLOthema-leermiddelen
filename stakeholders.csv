@@ -1,4 +1,52 @@
-Voornaam;Naam;Affiliatie;E-mail;Website;Rol;
-AuteurVoornaam;AuteurNaam;AuteurAffiliatie;auteurvoornaam.auteurnaam@auteurdomein;https://auteurwebsiteurl;A;
-EditorVoornaam;EditorNaam;EditorAffiliatie;editorvoornaam.editornaam@editordomein;https://editorwebsiteurl;E;
-MedewerkerVoornaam;MedewerkerNaam;MedewerkerAffiliatie;medewerkervoornaam.medewerkernaam@medewerkerdomein;https://medewerkerwebsiteurl;C;
+Voornaam;Naam;Affiliatie;E-mail;Website;Rol
+Katrien;Alen;Departement Onderwijs en Vorming;;;A
+Arne;Daniels;Digitaal Vlaanderen;arne.daniels@vlaanderen.be;;E
+Yaron;Dassonneville;Digitaal Vlaanderen;yaron.dassonneville@vlaanderen.be;;E
+Jitse;De Cock;Digitaal Vlaanderen;jitse.decock@vlaanderen.be;;E
+Ben;De Meester;IMEC;;;E
+Toon;Beens;Departement Onderwijs en Vorming;;;C
+Wim;Bontinck;Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding;;;C
+Paul;Buyck;;;;C
+Jochem;Claes;Microsoft;;;C
+Steve;Claeys;Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding;;;C
+Arne;Daniels;Digitaal Vlaanderen;;;C
+Leen;De Bruyn;Meemoo, Vlaams Instituut voor het Archief;;;C
+Jan;De Craemer;Departement Onderwijs en Vorming;;;C
+Bram;De Geeter;GO! atheneum Geraardsbergen;;;C
+Christoph;De Haene;IMEC;;;C
+Erwin;De Ley;SupportSquare NV;;;C
+Ben;De Meester;Universiteit Gent;;;C
+Steven;De Pauw;GO! Onderwijs van de Vlaamse Gemeenschap;;;C
+Andy;Demeulenaere;IMEC;;;C
+Inge;Donkervoort;;;;C
+Bram;Faems;;;;C
+Karo;Guetens;;;;C
+Dirk;Hagenaars;Questi;;;C
+Steven;Hendrickx;GO! Onderwijs van de Vlaamse Gemeenschap;;;C
+Jeroen;Herman;BE CENTRAL / Mediawijs;;;C
+Geert;Lybaert;UITGEVERIJ VAN IN NV;;;C
+Bart;Mesuere;Universiteit Gent;;;C
+Erwin;Meyers;SMARTBIT;;;C
+Tom;Neutens;Dwengo vzw;;;C
+Joos;Neven;SMARTBIT;;;C
+Louise;Paepe;Regionaal Technologisch Centrum Antwerpen;;;C
+Chris;Patteet;UITGEVERIJ VAN IN NV;;;C
+Pieter-Jan;Quinteyn;PLANTYN;;;C
+Marc;Rabaey;;;;C
+Tom;Reijnders;;;;C
+Kathleen;Rymen;Katholiek Onderwijs Vlaanderen;;;C
+Els;Salembier;Vrijdenkende Onafhankelijke OnderwijsPartners;;;C
+Lander;Schoonbaert;Meemoo, Vlaams Instituut voor het Archief;;;C
+Thijs;Smeyers;STUDIO GLOBO;;;C
+Frederic;Staes;Onderwijskoepel van Steden en Gemeenten (OVSG);;;C
+Nina;Steenberghs;GO! Onderwijs van de Vlaamse Gemeenschap;;;C
+Kristof;Thijssens;;;;C
+Lisa;Van Houdt;Questi;;;C
+Stef;Van Malderen;PLANTYN;;;C
+Helena;Van Nuffel;KU Leuven;;;C
+Ellen;Van Twembeke;Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen;;;C
+Jan;Velghe;;;;C
+Loes;Verheyen;Katholiek Onderwijs Vlaanderen;;;C
+Tine;Verschaeve;LIGO, Centrum voor Basiseducatie Brugge - Oostende - Westhoek;;;C
+Annelies;Volckaert;edtech/station;;;C
+Hans;Zoons;Onderwijskoepel van Steden en Gemeenten (OVSG);;;C
