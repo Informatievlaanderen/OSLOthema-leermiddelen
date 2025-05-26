@@ -35,6 +35,10 @@
     {
       "name": "Verslag Thematische Werkgroep 3 - 17-01-2025",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-leermiddelen/standaardenregister/reports/Verslag Thematische Werkgroep 3 - OSLO Leermiddelen.pdf"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep 4 - 26-03-2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-leermiddelen/standaardenregister/reports/Verslag Thematische Werkgroep 4 - OSLO Leermiddelen.pdf"
     }
   ],
   "presentations": [
@@ -53,6 +57,10 @@
     {
       "name": "Presentatie Thematische Werkgroep 3 - 17-01-2025",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-leermiddelen/standaardenregister/presentations/Presentatie thematische werkgroep 3 - Leermiddelen.pdf"
+    },
+    {
+      "name": "Presentatie Thematische Werkgroep 4 - 26-03-2025",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-leermiddelen/standaardenregister/presentations/Presentatie thematische werkgroep 4 - Leermiddelen.pdf"
     }
   ],
   "dateOfRegistration": "",
