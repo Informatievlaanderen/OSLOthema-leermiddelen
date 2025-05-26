@@ -14,10 +14,15 @@
   "specificationDocuments": [
     {
       "name": "Vocabularium Leermiddelen",
+      "resourceReference": "https://data.vlaanderen.be/ns/leermiddelen"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Applicatieprofiel Leermiddelen",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/leermiddelen"
     }
   ],
-  "documentation": [],
   "charter": {},
   "reports": [
     {
