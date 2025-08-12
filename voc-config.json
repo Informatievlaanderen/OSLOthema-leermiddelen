@@ -2,14 +2,14 @@
   "title": "Vocabularium Leermiddelen",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
-  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "responsibleOrganisation": [
     {
       "name": "Departement Onderwijs en Vorming",
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000049"
     }
   ],
-  "publicationDate": "2025-05-20",
+  "publicationDate": "2025-08-01",
   "descriptionFileName": "voc-leermiddelen-config.md",
   "specificationDocuments": [
     {
@@ -68,11 +68,11 @@
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-leermiddelen/standaardenregister/presentations/Presentatie thematische werkgroep 4 - Leermiddelen.pdf"
     }
   ],
-  "dateOfRegistration": "",
+  "dateOfRegistration": "2024-05-16",
   "dateOfAcknowledgementByWorkingGroup": "",
   "dateOfAcknowledgementBySteeringCommittee": "",
-  "datePublicReviewStart": "",
-  "datePublicReviewEnd": "",
+  "datePublicReviewStart": "2025-08-01",
+  "datePublicReviewEnd": "2025-12-19",
   "endOfPublicationDate": "",
   "domain": "https://data.vlaanderen.be/id/concept/Domein/Onbekend"
 }
