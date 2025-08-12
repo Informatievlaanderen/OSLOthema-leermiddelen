@@ -1,18 +1,18 @@
 [
-  {
-    "name": "leermiddelen-ap",
-    "type": "ap",
-    "eap": "Leermiddelen.eap",
-    "diagram": "OSLO-Leermiddelen",
-    "template": "leermiddelen-ap.j2",
-    "title": "Applicatieprofiel Leermiddelen",
-    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-    "publication-date": "2025-08-01",
-    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-    "contributors-file": "stakeholders.csv",
-    "contributors-column": "Rol",
-    "site": "site-skeleton/leermiddelen-ap",
-    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-leermiddelen"
-  }
+ {
+   "name": "leermiddelen-ap",
+   "type": "ap",
+   "eap": "Leermiddelen.eap",
+   "diagram": "OSLO-Leermiddelen",
+   "template": "leermiddelen-ap.j2",
+   "title": "Applicatieprofiel Leermiddelen",
+   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+   "publication-date": "2025-08-01",
+   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+   "contributors-file": "stakeholders.csv",
+   "contributors-column": "Rol",
+   "site": "site-skeleton/leermiddelen-ap",
+   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen/issues",
+   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-leermiddelen"
+ }
 ]
