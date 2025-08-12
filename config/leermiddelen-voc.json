@@ -1,17 +1,17 @@
 [
-  {
-    "name": "leermiddelen",
-    "type": "voc",
-    "eap": "Leermiddelen.eap",
-    "diagram": "OSLO-Leermiddelen",
-    "template": "leermiddelen-voc.j2",
-    "title": "Vocabularium Leermiddelen",
-    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-    "publication-date": "2025-08-01",
-    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-    "contributors-file": "stakeholders.csv",
-    "contributors-column": "Rol",
-    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-leermiddelen"
-  }
+ {
+   "name": "leermiddelen",
+   "type": "voc",
+   "eap": "Leermiddelen.eap",
+   "diagram": "OSLO-Leermiddelen",
+   "template": "leermiddelen-voc.j2",
+   "title": "Vocabularium Leermiddelen",
+   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+   "publication-date": "2025-08-01",
+   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+   "contributors-file": "stakeholders.csv",
+   "contributors-column": "Rol",
+   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen/issues",
+   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-leermiddelen"
+ }
 ]
