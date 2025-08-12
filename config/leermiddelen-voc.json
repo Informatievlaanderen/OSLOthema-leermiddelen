@@ -5,7 +5,7 @@
     "eap": "Leermiddelen.eap",
     "diagram": "OSLO-Leermiddelen",
     "template": "leermiddelen-voc.j2",
-    "title": "Vocabularium OSLO Leermiddelen",
+    "title": "Vocabularium Leermiddelen",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
     "publication-date": "2025-08-01",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
