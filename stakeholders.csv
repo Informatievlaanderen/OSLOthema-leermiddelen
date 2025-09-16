@@ -1,58 +1,56 @@
 Voornaam;Naam;Affiliatie;E-mail;Website;Rol
-Wendy;De Keyzer;KlasCement;;;A
-Katrien;Bernaerts;Departement Onderwijs en Vorming;;;A
-Dries;Ballyn;Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen;;;A
-Hannelore;Baeyens;Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen;;;A
-Bart;Colpaert;Departement Onderwijs en Vorming;;;A
-Katrien;Alen;Departement Onderwijs en Vorming;;;A
-Arne;Daniels;Digitaal Vlaanderen;arne.daniels@vlaanderen.be;;E
-Yaron;Dassonneville;Digitaal Vlaanderen;yaron.dassonneville@vlaanderen.be;;E
-Jitse;De Cock;Digitaal Vlaanderen;jitse.decock@vlaanderen.be;;E
-Ben;De Meester;IMEC;;;E
-Toon;Beens;Departement Onderwijs en Vorming;;;C
-Aristo;Shirshekan;Digitaal Vlaanderen;;;C
-Wim;Bontinck;Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding;;;C
+Wendy;De Keyzer;KlasCement;;https://www.klascement.net/;A
+Katrien;Bernaerts;Departement Onderwijs en Vorming;;OVO000049;A
+Dries;Ballyn;Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen;;OVO001951;A
+Hannelore;Baeyens;Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen;;OVO001951;A
+Bart;Colpaert;Departement Onderwijs en Vorming;;OVO000049;A
+Katrien;Alen;Departement Onderwijs en Vorming;;OVO000049;A
+Arne;Daniels;Digitaal Vlaanderen;arne.daniels@vlaanderen.be;OVO002949;E
+Yaron;Dassonneville;Digitaal Vlaanderen;yaron.dassonneville@vlaanderen.be;OVO002949;E
+Jitse;De Cock;Digitaal Vlaanderen;jitse.decock@vlaanderen.be;OVO002949;E
+Ben;De Meester;IMEC;;OVO001613;E
+Toon;Beens;Departement Onderwijs en Vorming;;OVO000049;C
+Aristo;Shirshekan;Digitaal Vlaanderen;;OVO002949;C
+Wim;Bontinck;Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding;;OVO000078;C
 Paul;Buyck;;;;C
-Jochem;Claes;Microsoft;;;C
-Steve;Claeys;Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding;;;C
-Arne;Daniels;Digitaal Vlaanderen;;;C
-Leen;De Bruyn;Meemoo, Vlaams Instituut voor het Archief;;;C
-Jan;De Craemer;Departement Onderwijs en Vorming;;;A
-Bram;De Geeter;GO! atheneum Geraardsbergen;;;C
-Christoph;De Haene;IMEC;;;C
-Erwin;De Ley;SupportSquare NV;;;C
-Ben;De Meester;Universiteit Gent;;;C
-Steven;De Pauw;GO! Onderwijs van de Vlaamse Gemeenschap;;;C
-Andy;Demeulenaere;IMEC;;;C
-Inge;Donkervoort;Xerte Project;;;C
-Bram;Faems;Uitgeverij Lernova;;;C
-Karo;Guetens;;;;C
-Dirk;Hagenaars;Questi;;;C
-Steven;Hendrickx;GO! Onderwijs van de Vlaamse Gemeenschap;;;C
-Jeroen;Herman;BE CENTRAL / Mediawijs;;;C
-Geert;Lybaert;UITGEVERIJ VAN IN NV;;;C
-Bart;Mesuere;Universiteit Gent;;;C
-Erwin;Meyers;SMARTBIT;;;C
-Tom;Neutens;Dwengo vzw;;;C
-Joos;Neven;SMARTBIT;;;C
-Louise;Paepe;Regionaal Technologisch Centrum Antwerpen;;;C
-Chris;Patteet;UITGEVERIJ VAN IN NV;;;C
-Pieter-Jan;Quinteyn;PLANTYN;;;C
-Marc;Rabaey;GITO Overijse;;;C
-Tom;Reijnders;Xerte Project;;;C
-Kathleen;Rymen;Katholiek Onderwijs Vlaanderen;;;C
-Els;Salembier;Vrijdenkende Onafhankelijke OnderwijsPartners;;;C
-Lander;Schoonbaert;Meemoo, Vlaams Instituut voor het Archief;;;C
-Thijs;Smeyers;STUDIO GLOBO;;;C
-Frederic;Staes;Onderwijskoepel van Steden en Gemeenten (OVSG);;;C
-Nina;Steenberghs;GO! Onderwijs van de Vlaamse Gemeenschap;;;C
-Kristof;Thijssens;;;;C
-Lisa;Van Houdt;Questi;;;C
-Stef;Van Malderen;PLANTYN;;;C
-Helena;Van Nuffel;KU Leuven;;;C
-Ellen;Van Twembeke;Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen;;;A
-Jan;Velghe;GITO Overijse;;;C
-Loes;Verheyen;Katholiek Onderwijs Vlaanderen;;;C
-Tine;Verschaeve;LIGO, Centrum voor Basiseducatie Brugge - Oostende - Westhoek;;;C
-Annelies;Volckaert;edtech/station;;;C
-Hans;Zoons;Onderwijskoepel van Steden en Gemeenten (OVSG);;;C
+Jochem;Claes;Microsoft;;https://www.microsoft.com/fr-be/;C
+Steve;Claeys;Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding;;OVO000078;C
+Leen;De Bruyn;Meemoo, Vlaams Instituut voor het Archief;;OVO008227;C
+Jan;De Craemer;Departement Onderwijs en Vorming;;OVO000049;A
+Bram;De Geeter;GO! atheneum Geraardsbergen;;https://www.ka-geraardsbergen.be/;C
+Christoph;De Haene;IMEC;;OVO001613;C
+Erwin;De Ley;SupportSquare NV;;https://www.supportsquare.io/;C
+Steven;De Pauw;GO! Onderwijs van de Vlaamse Gemeenschap;;OVO003033;C
+Andy;Demeulenaere;IMEC;;OVO001613;C
+Inge;Donkervoort;Xerte Project;;https://xerte.org.uk/index.php/en/;C
+Bram;Faems;Uitgeverij Lernova;;https://www.lernova.be/;C
+Karo;Guetens;JEF;;https://www.jeugdfilm.be/;C
+Dirk;Hagenaars;Questi;;https://www.questi.com/benl/online-platform-voor-het-onderwijs/home/;C
+Steven;Hendrickx;GO! Onderwijs van de Vlaamse Gemeenschap;;OVO003033;C
+Jeroen;Herman;BE CENTRAL / Mediawijs;;https://www.mediawijs.be/nl;C
+Geert;Lybaert;UITGEVERIJ VAN IN NV;;https://www.vanin.be/;C
+Bart;Mesuere;Universiteit Gent;;OVO002303;C
+Erwin;Meyers;SMARTBIT;;https://www.smartschool.be/;C
+Tom;Neutens;Dwengo vzw;;https://www.dwengo.org/;C
+Joos;Neven;SMARTBIT;;https://www.smartschool.be/;C
+Louise;Paepe;Regionaal Technologisch Centrum Antwerpen;;https://rtc-antwerpen.be/;C
+Chris;Patteet;UITGEVERIJ VAN IN NV;;https://www.vanin.be/;C
+Pieter-Jan;Quinteyn;PLANTYN;;https://www.plantyn.com/;C
+Marc;Rabaey;GITO Overijse;;https://lms.gito-overijse.be/;C
+Tom;Reijnders;Xerte Project;;https://xerte.org.uk/index.php/en/;C
+Kathleen;Rymen;Katholiek Onderwijs Vlaanderen;;OVO008568;C
+Els;Salembier;Vrijdenkende Onafhankelijke OnderwijsPartners;;https://www.voop.be/;C
+Lander;Schoonbaert;Meemoo, Vlaams Instituut voor het Archief;;OVO008227;C
+Thijs;Smeyers;STUDIO GLOBO;;https://www.studioglobo.be/;C
+Frederic;Staes;Onderwijskoepel van Steden en Gemeenten (OVSG);;https://www.ovsg.be/;C
+Nina;Steenberghs;GO! Onderwijs van de Vlaamse Gemeenschap;;OVO003033;C
+Kristof;Thijssens;Groep Educatieve en Wetenschappelijke uitgevers (GEWU);;https://www.gewu.be/;C
+Lisa;Van Houdt;Questi;;https://www.questi.com/benl/online-platform-voor-het-onderwijs/home/;C
+Stef;Van Malderen;PLANTYN;;https://www.plantyn.com/;C
+Helena;Van Nuffel;KU Leuven;;OVO002307;C
+Ellen;Van Twembeke;Agentschap voor Hoger Onderwijs, Volwassenenonderwijs, Kwalificaties en Studietoelagen;;OVO001951;A
+Jan;Velghe;GITO Overijse;;https://lms.gito-overijse.be/;C
+Loes;Verheyen;Katholiek Onderwijs Vlaanderen;;OVO008568;C
+Tine;Verschaeve;LIGO, Centrum voor Basiseducatie Brugge - Oostende - Westhoek;;OVO008616;C
+Annelies;Volckaert;edtech/station;;https://www.edtechstation.be/;C
+Hans;Zoons;Onderwijskoepel van Steden en Gemeenten (OVSG);;https://www.ovsg.be/;C
