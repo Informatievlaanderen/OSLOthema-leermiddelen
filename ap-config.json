@@ -9,7 +9,7 @@
       "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO000049"
     }
   ],
-  "publicationDate": "2025-08-201",
+  "publicationDate": "2025-08-20",
   "descriptionFileName": "ap-leermiddelen-config.md",
   "specificationDocuments": [
     {
@@ -17,12 +17,7 @@
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/leermiddelen"
     }
   ],
-  "documentation": [
-    {
-      "name": "Vocabularium Leermiddelen",
-      "resourceReference": "https://data.vlaanderen.be/ns/leermiddelen"
-    }
-  ],
+  "documentation": {},
   "charter": {},
   "reports": [
     {
