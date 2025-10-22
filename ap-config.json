@@ -18,7 +18,10 @@
     }
   ],
   "documentation": [],
-  "charter": {},
+  "charter": {
+    "name": "Charter OSLO Leermiddelen",
+    "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen/blob/standaardenregister/charter/Charter_OSLO_Onderwijsdoelen_versie1.docx.pdf"
+  },
   "reports": [
     {
       "name": "Verslag Business werkgroep - 30-09-2024",
