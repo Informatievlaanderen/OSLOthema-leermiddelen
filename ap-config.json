@@ -1,5 +1,5 @@
 {
-  "title": "Applicatieprofiel Leermiddelen",
+  "title": "Applicatieprofiel Leermiddelen- en doelen",
   "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
@@ -13,13 +13,13 @@
   "descriptionFileName": "ap-leermiddelen-config.md",
   "specificationDocuments": [
     {
-      "name": "Applicatieprofiel Leermiddelen",
+      "name": "Applicatieprofiel Leermiddelen- en doelen",
       "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/leermiddelen"
     }
   ],
   "documentation": [],
   "charter": {
-    "name": "Charter OSLO Leermiddelen",
+    "name": "Charter OSLO Leermiddelen- en doelen",
     "resourceReference": "https://github.com/Informatievlaanderen/OSLOthema-leermiddelen/blob/standaardenregister/charter/Charter_OSLO_Onderwijsdoelen.pdf"
   },
   "reports": [
@@ -64,6 +64,12 @@
     {
       "name": "Presentatie Thematische Werkgroep 4 - 26-03-2025",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-leermiddelen/standaardenregister/presentations/Presentatie thematische werkgroep 4 - Leermiddelen.pdf"
+    }
+  ],
+  "implementations": [
+    {
+      "name": "POC Leermiddelen- en doelen",
+      "resourceReference": "https://informatievlaanderen.github.io/oslo-leermiddelen-poc"
     }
   ],
   "dateOfRegistration": "2024-05-16",
